@@ -1,5 +1,6 @@
 package firsthaithamproject;
 import java.util.Scanner;
+import firsthaithamproject.Operation;
 public class haitham {
 	
 	
@@ -55,8 +56,9 @@ public class haitham {
 	   obj2.Faculty(Faculty1);
 	   obj2.age(age1);
 	   System.out.println("###################### Object 2 End #################"); 
-	   
-	   
+	   System.out.println("###################### Operations #################"); 
+	   Operation obj3 =  new Operation();
+	   obj3.operationsOnNumbers(16, 12);
 	   
    }
 	
