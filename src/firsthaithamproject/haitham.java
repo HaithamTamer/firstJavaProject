@@ -1,6 +1,7 @@
 package firsthaithamproject;
 import java.util.Scanner;
 import firsthaithamproject.Operation;
+import firsthaithamproject.Secondprojact;
 public class haitham {
 	
 	
@@ -59,7 +60,18 @@ public class haitham {
 	   System.out.println("###################### Operations #################"); 
 	   Operation obj3 =  new Operation();
 	   obj3.operationsOnNumbers(16, 12);
+	   Operation obj4 = new Operation();
+	   obj4.operationsOnNumber5(2,4);
+	   Operation obj5 = new Operation();
+	   obj5.operationsOnNumber1(4,4);
+	   Operation obj6 = new Operation();
+	   obj6.opreationsOnNumber2(25,2);
+	   Operation obj7 = new Operation();
+	   obj7.opreationOnNumber3(44,22);
+	   Secondprojact obj8 = new Secondprojact();
+	   obj8.operationsOnNumbers(45, 66);
 	   
+	     
    }
 	
 	
